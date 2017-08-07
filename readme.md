@@ -1,3 +1,3 @@
-# Boilerplate Meteor Project
+# Notes Meteor App
 
-This includes a basic react and auth setup.
+This app will allow the creation of notes.
