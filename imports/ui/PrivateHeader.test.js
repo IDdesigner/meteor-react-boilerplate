@@ -27,7 +27,7 @@ if (Meteor.isClient) {
         //     expect(spy).toHaveBeenCalled();
         // });
 
-        if('should call handleLogout on click', function () {
+        it('should call handleLogout on click', function () {
             const spy = expect.createSpy();
             const wrapper = mount( <PrivateHeader title="Title" handleLogout={spy}/>);
 
