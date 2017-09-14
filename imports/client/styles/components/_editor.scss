@@ -10,6 +10,7 @@
 .editor_title {
     border: none;
     border-bottom: 2px solid $grey;
+    color: $dark-grey;
     font-size: $large-font-size;
     margin-bottom: $large-space;
     outline: none;
@@ -30,3 +31,7 @@
     margin: $large-space * 2;
     font-style: italic;
 }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: $grey;
+  }
